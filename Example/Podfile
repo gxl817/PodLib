@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PodLib_Example', :exclusive => true do
+  pod 'PodLib', :path => '../'
+end
+
+target 'PodLib_Tests', :exclusive => true do
+  pod 'PodLib', :path => '../'
+
+  
+end
