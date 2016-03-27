@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "PodLib"
+  s.name             = "AlbumView"
   s.version          = "0.1.0"
   s.summary          = "A short description of PodLib."
 
@@ -19,17 +19,17 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PodLib"
+  s.homepage         = "https://github.com/gxl817/PodLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "gxl817" => "1282287058@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PodLib.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/gxl817/PodLib.git"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+s.source_files = '**/*.{h,m}'
   s.resource_bundles = {
     'PodLib' => ['Pod/Assets/*.png']
   }
