@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "AlbumView"
+  s.name             = "PodLib"
   s.version          = "0.1.0"
   s.summary          = "A short description of PodLib."
 
